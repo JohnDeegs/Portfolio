@@ -1,0 +1,44 @@
+.hero-section{
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url('./img/cover15.jpg');
+    background-size: 100% auto;
+    height: 30vh;
+    img{
+        width: 100%;
+        height: auto;
+    }
+    
+    h1{
+        position: relative;
+        margin: 0;
+        padding-top: 5rem;
+        color: white;
+        .h1-first-name{
+            font-weight: 800;
+        }
+    }
+    
+    .hero-span{
+        position: relative;
+        color: white;
+        padding-top: 1rem;
+    }
+
+    .social-icons{
+        padding-top: 1rem;
+        .ti-twitter-alt{
+            color: white;
+            padding-right: 1rem;
+        }
+    
+        .ti-instagram{
+            color: white;
+        }
+    
+        .ti-linkedin{
+            color: white;
+            padding-left: 1rem;
+        }
+    }
+    
+}
+
