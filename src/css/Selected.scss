@@ -1,0 +1,11 @@
+.selected-section{
+    height: 15vh;
+    border: 1px solid black;
+    h5{
+        position: relative;
+        top: 35%;
+        transform: translateY(-35%);
+        letter-spacing: 0.4rem;
+        font-size: 1.2rem;
+    }
+}
