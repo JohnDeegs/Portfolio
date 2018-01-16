@@ -3,6 +3,7 @@ import Nav from './Nav';
 import Hero from './Hero';
 import Selected from './Selected';
 import Projects from './Projects';
+import Footer from './Footer';
 import '../css/App.scss';
 
 class App extends Component {
@@ -13,6 +14,7 @@ class App extends Component {
         <Hero></Hero>
         <Selected></Selected>
         <Projects></Projects>
+        <Footer></Footer>
       </div>
     );
   }
